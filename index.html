@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            padding: 30px;
+            background-color: #c4b6b6;
+            width: 400px;
+            margin: 100px 500px;
+            border-radius: 10px;
+            
+            
+        }
+         .progress-bar {
+            margin: 10px auto;
+            background: #ffffff;
+            border-radius: 100px;
+            height: 20px;
+            width: 80%;
+            overflow: hidden;
+         }
+            .progress {
+                background: #4caf50;
+                height: 100%;
+                width: 0%;
+            }
+        h1{
+            text-align: center;
+        }
+
+        input[type="button"]{
+            display: block;
+            margin: 50px auto;
+            background-color: #f98900;
+            border-radius: 10px;
+            color: white;
+            padding: 10px 20px;
+            border: 10px solid #f98900;
+            
+        }
+        .percentage{
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Download</h1>
+        <div class="progress-bar">
+            <div class="progress" id="progressBar"></div> 
+        </div>
+        <div class="percentage" id="percentage"></div>
+        <input type="button" value="Start Download">
+    </div>
+    </div>
+    <script src ="index.js"></script>
+</body>
+</html>
